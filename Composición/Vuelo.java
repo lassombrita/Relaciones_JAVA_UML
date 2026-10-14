@@ -43,7 +43,6 @@ public class Vuelo {
 
     public void mostrarAsientos() {
         System.out.println("Estado de asientos: ");
-        // Loop added to display the status of each seat
         if (asientos != null) {
             for (Asiento a : asientos) {
                 a.mostrarEstado();
